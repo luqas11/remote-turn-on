@@ -5,6 +5,9 @@
 #define SSID "ssid"
 #define PASSWORD "pass"
 
+// Computers MAC address 
+#define MAC_ADDRESS "00:00:00:00:00:00"
+
 // Credentials needed to connect to Blynk services, given in the Blynk project configuration site
 #define BLYNK_TEMPLATE_ID           "template-id"
 #define BLYNK_TEMPLATE_NAME         "template-name"

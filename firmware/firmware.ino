@@ -19,10 +19,9 @@ BLYNK_WRITE(V0)
   // Set the LED to the status of the Virtual Pin
   digitalWrite(LED_PIN, !value);
 
-  // If the Virtual Pin is HIGH, send the Wake On LAN magic packet to a given MAC address
+  // If the Virtual Pin is HIGH, send the Wake On LAN magic packet to the given MAC address
   if (value){
-    const char *MACAddress = "6C:2B:59:40:22:AA";
-    WOL.sendMagicPacket(MACAddress);
+    WOL.sendMagicPacket(MAC_ADDRESS);
   }
 }
 
