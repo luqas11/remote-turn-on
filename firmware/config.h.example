@@ -1,0 +1,13 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi credentials
+#define SSID "ssid"
+#define PASSWORD "pass"
+
+// Credentials needed to connect to Blynk services, given in the Blynk project configuration site
+#define BLYNK_TEMPLATE_ID           "template-id"
+#define BLYNK_TEMPLATE_NAME         "template-name"
+#define BLYNK_AUTH_TOKEN            "auth-token"
+
+#endif
