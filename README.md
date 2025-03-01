@@ -8,5 +8,4 @@ Blynk App -> Blynk Cloud -> ESP8266 -> WoL signal -> Computer
 
 ### Mobile app
 
-<img src="example1.png" height="75%" width="75%">
-<img src="example2.png" height="75%" width="75%">
+<img src="example.png" height="75%" width="75%">
